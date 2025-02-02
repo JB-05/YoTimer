@@ -79,9 +79,6 @@ function HomePage() {
           <h1 className="text-4xl font-bold text-gray-800 dark:text-white">
             YoTimer
           </h1>
-          <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
-            by Joel Biju
-          </p>
         </div>
 
         <form onSubmit={handleAddCountdown} className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8">
@@ -182,7 +179,11 @@ function HomePage() {
           ))}
         </div>
 
-        <div className="mt-12 text-center text-gray-600 dark:text-gray-400">
+        <p className="text-sm text-gray-600 dark:text-gray-400 text-center mt-8 mb-4">
+          by Joel Biju
+        </p>
+
+        <div className="mt-4 text-center text-gray-600 dark:text-gray-400">
           <h2 className="text-xl font-semibold mb-2">About YoTimer</h2>
           <p className="text-sm">
             YoTimer is a fun project designed to help you keep track of your important moments.
